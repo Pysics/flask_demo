@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block page_content %}
+<div class="page-header">
+  <p>现在时间时: {{ moment().format('YYYY年M月D日, h:mm:ss a') }}.</p>
+  <p>The current date and time is: {{ moment().format('MMMM Do YYYY, h:mm:ss a') }}.</p>
+  <p>已经过去了: {{ moment().fromTime(current_time) }}.</p>
+  <p>{{ moment().calendar() }}.</p>
+  <p>{{ url_for('index', name=1) }}</p>
+  <p>{{ url_for('user', name=2) }}</p>
+</div>
+{% endblock %}
