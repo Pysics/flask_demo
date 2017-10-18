@@ -1,0 +1,15 @@
+extends base
+
+block content
+  h2 Sign In
+  form(action='', method='post', name='login')
+    - form.hidden_tag()
+    p Please enter your OpenID: 
+      br
+      - form.openid(size=80)
+      br
+      // 怎么处理？加上每次更改需要重启服务，放弃pug
+      #{form.rember_me}
+      | Remember Me
+    p
+      input(type='submit', value='Sign In')

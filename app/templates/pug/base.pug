@@ -1,0 +1,15 @@
+!!! 5
+html(lang="en")
+  head
+    if title
+      title #{title} - flask app
+    else
+      title flask app
+  body
+    if title
+      h1.title
+        a(href='/')= title
+    else
+      h1.title
+        a(href='/') flask
+    block content
