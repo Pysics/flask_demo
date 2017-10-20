@@ -16,7 +16,7 @@
 <form action="" method="post" name="login">
   {{form.hidden_tag()}}
   <p>
-      Please enter your OpenID, or select one of the providers below: <br>
+      请输入你的openID, 或从下面选择一个： <br>
       {{form.openid(size=80)}}<br>
       {% for error in form.openid.errors %}
         <span style="color: red;">[{{error}}]</span>
@@ -26,7 +26,7 @@
         <a href="javascript:set_openid('{{pr.url}}', '{{pr.name}}');">{{pr.name}}</a> |
       {% endfor %}
   </p>
-  <p>{{form.remember_me}} Remember Me</p>
+  <p>{{form.remember_me}} 记住我</p>
   <p><input type="submit" value="Sign In"></p>
 </form>
 {% endblock %}

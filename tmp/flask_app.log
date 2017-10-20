@@ -1,0 +1,126 @@
+2017-10-20 17:31:12,064 INFO: startup [in C:\Users\xiaoFen\Desktop\work space\python\flask_demo\app\__init__.py:38]
+2017-10-20 17:32:00,813 INFO: Flask App [in C:\Users\xiaoFen\Desktop\work space\python\flask_demo\app\__init__.py:38]
+2017-10-20 17:32:10,140 INFO: Flask App [in C:\Users\xiaoFen\Desktop\work space\python\flask_demo\app\__init__.py:38]
+2017-10-20 17:32:35,977 INFO: Flask App [in C:\Users\xiaoFen\Desktop\work space\python\flask_demo\app\__init__.py:38]
+2017-10-20 17:32:37,102 INFO: Flask App [in C:\Users\xiaoFen\Desktop\work space\python\flask_demo\app\__init__.py:38]
+2017-10-20 17:32:55,762 INFO: start up [in C:\Users\xiaoFen\Desktop\work space\python\flask_demo\app\__init__.py:38]
+2017-10-20 17:33:03,137 INFO: startup [in C:\Users\xiaoFen\Desktop\work space\python\flask_demo\app\__init__.py:38]
+2017-10-20 17:33:12,397 INFO: startup [in C:\Users\xiaoFen\Desktop\work space\python\flask_demo\app\__init__.py:38]
+2017-10-20 17:33:47,655 INFO: Flask App [in C:\Users\xiaoFen\Desktop\work space\python\flask_demo\app\__init__.py:38]
+2017-10-20 17:34:05,296 INFO: Flask App [in C:\Users\xiaoFen\Desktop\work space\python\flask_demo\app\__init__.py:38]
+2017-10-20 17:34:22,036 INFO: Flask App [in C:\Users\xiaoFen\Desktop\work space\python\flask_demo\app\__init__.py:39]
+2017-10-20 17:34:30,385 INFO: Flask App [in C:\Users\xiaoFen\Desktop\work space\python\flask_demo\app\__init__.py:38]
+2017-10-20 17:35:24,565 INFO: Flask App [in C:\Users\xiaoFen\Desktop\work space\python\flask_demo\app\__init__.py:38]
+2017-10-20 17:39:16,526 INFO: Flask App [in C:\Users\xiaoFen\Desktop\work space\python\flask_demo\app\__init__.py:38]
+2017-10-20 18:20:05,998 INFO: Flask App [in C:\Users\xiaoFen\Desktop\work space\python\flask_demo\app\__init__.py:38]
+2017-10-20 18:20:45,769 INFO: Flask App [in C:\Users\xiaoFen\Desktop\work space\python\flask_demo\app\__init__.py:38]
+2017-10-20 18:21:19,430 INFO: Flask App [in C:\Users\xiaoFen\Desktop\work space\python\flask_demo\app\__init__.py:38]
+2017-10-20 18:21:54,687 INFO: Flask App [in C:\Users\xiaoFen\Desktop\work space\python\flask_demo\app\__init__.py:38]
+2017-10-20 18:22:35,445 INFO: Flask App [in C:\Users\xiaoFen\Desktop\work space\python\flask_demo\app\__init__.py:38]
+2017-10-20 18:23:12,576 INFO: Flask App [in C:\Users\xiaoFen\Desktop\work space\python\flask_demo\app\__init__.py:38]
+2017-10-20 18:25:39,048 ERROR: Exception on /edit [GET] [in C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask_login\utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\app\views.py", line 104, in edit
+    else:
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+AttributeError: 'User' object has no attribute 'nicknam'
+2017-10-20 18:25:52,655 ERROR: Exception on /edit [GET] [in C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask_login\utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\app\views.py", line 104, in edit
+    else:
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+AttributeError: 'User' object has no attribute 'nicknam'
+2017-10-20 18:26:35,926 ERROR: Exception on /edit [GET] [in C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask_login\utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\app\views.py", line 104, in edit
+    else:
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+AttributeError: 'User' object has no attribute 'nicknam'
+2017-10-20 18:27:48,828 ERROR: Exception on /edit [GET] [in C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask_login\utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\app\views.py", line 104, in edit
+    else:
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+AttributeError: 'User' object has no attribute 'nicknam'
+2017-10-20 18:27:54,082 ERROR: Exception on /edit [GET] [in C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py:1560]
+Traceback (most recent call last):
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\flask_login\utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\app\views.py", line 104, in edit
+    else:
+  File "C:\Users\xiaoFen\Desktop\work space\python\flask_demo\venv\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+AttributeError: 'User' object has no attribute 'nicknam'
+2017-10-20 18:28:13,793 INFO: Flask App [in C:\Users\xiaoFen\Desktop\work space\python\flask_demo\app\__init__.py:38]

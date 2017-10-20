@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>修改资料</h1>
+<form action="" method="post", name="edit">
+  {{form.hidden_tag()}}
+  <table>
+    <tr>
+      <td>昵称：</td>
+      <td>{{form.nickname(size=24)}}</td>
+      {% for error in form.errors.nickname %}
+      <br>
+      <span style="color: red;">{{error}}</span>
+      {% endfor %}
+    </tr>
+    <tr>
+      <td>签名：</td>
+      <td>{{form.about_me(cols=32, rows=4)}}</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>
+        <input type="submit" name="" value="提交">
+      </td>
+    </tr>
+  </table>
+</form>
+{% endblock %}

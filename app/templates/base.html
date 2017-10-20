@@ -8,7 +8,11 @@
   </head>
   <body>
     <div class="container">
-      <a href="/">Home</a>
+      <a href="{{url_for('index')}}">主页</a>
+      {% if g.user.is_authenticated %}
+      | <a href="{{url_for('user', nickname=g.user.nickname)}}">我的文章</a>
+      | <a href="{{url_for('logout')}}">退出</a>
+      {% endif %}
       <hr>
       {% with messages = get_flashed_messages() %}
         {% if messages %}
